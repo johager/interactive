@@ -1,0 +1,35 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-color: brown;
+    color: #FFFFFF;
+}
+
+/* h1, h2, h3 {
+    background-color: blue;
+} */
+
+/* div {
+    height: 200px;
+    width: 400px;
+    background-image: url(https://i.ytimg.com/vi/lklDJ5VRQao/maxresdefault.jpg);
+    background-size: cover;
+    background-position: cover;
+    background-repeat: none;
+} */
+
+div {
+    height: 100px;
+    //width: 200 px;
+    width: 50vw;
+    background-color: green;
+    border: blue 2px solid;
+    padding: 20px;
+    margin: 40px;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
