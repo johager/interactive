@@ -1,0 +1,67 @@
+div {
+    color: brown;
+    height: 75px;
+    width: 150px;
+}
+
+.even {
+    background-color: #EEEEEE;
+}
+
+.odd {
+    background-color: #C3C3C3;
+}
+
+#div3 {
+    color: #222222;
+}
+
+#spanParent {
+    color: #000000;
+}
+
+#spanParent span {
+    background-color: yellow;
+}
+
+/* sibling */
+div ~ span {
+    font-weight: bold;
+}
+
+#div1 {
+    position: relative;
+    /* top: 50px;
+    left: 50px; */
+}
+
+/* #div2 {
+    position: absolute;
+} */
+
+/* #div3 {
+    position: fixed;
+    top: 0px;
+    right: 100px;
+    height: 2000px;
+} */
+
+#div4 {
+    position: sticky;
+    top: 50px;
+    left: 400px;
+}
+
+.doFlex {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.inline {
+    /* display: inline; */
+    width: 500px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
