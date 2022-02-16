@@ -1,0 +1,63 @@
+We are going to plan the data model for a basic social media app.
+
+Features
+users can sign into the app with their email and password
+
+users can follow each other
+
+users can create posts with photos and/or text
+
+users can comment on posts
+
+users can join groups
+
+users can create posts within groups
+
+=== === === ===
+
+users
+- user_id
+- name
+- email
+- password
+- timestamp
+
+following
+- following_id
+- user_id_parent
+- user_id_child
+- timestamp
+
+posts
+- post_id
+- user_id
+- text
+- timestamp
+
+pictures
+- picture_id
+- post_id
+- photo
+
+comments
+- comment_id
+- post_id
+- user_id
+- text
+- timestamp
+
+groups
+- group_id
+- name
+- timestamp
+
+users_groups
+- id
+- user_id
+- group_id
+- timestamp
+
+group_posts
+- group_post_id
+- group_id
+- post_id
